@@ -1,7 +1,3 @@
-include "root" {
-  path = find_in_parent_folders("root.hcl")
-}
-
 terraform {
     source = "tfr:///Azure/avm-res-network-virtualnetwork/azurerm?version=0.8.1"
 }
