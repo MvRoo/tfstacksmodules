@@ -4,5 +4,4 @@ terraform {
 
 inputs = {
   location            = "northeurope"
-  name                = "tgstackuat"
 }
